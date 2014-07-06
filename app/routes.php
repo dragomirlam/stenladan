@@ -12,6 +12,9 @@
 */
 
 Route::get('/', function()
-{
-	return View::make('hello');
+{	
+	$events = DB::table('events')->get();
+
+	return $events;
+	//return View::make('hello');
 });
