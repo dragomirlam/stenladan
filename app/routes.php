@@ -15,6 +15,6 @@ Route::get('/', function()
 {	
 	$events = DB::table('events')->get();
 
-	return $events;
-	//return View::make('hello');
+	//return $events;
+	return View::make('hello');
 });
