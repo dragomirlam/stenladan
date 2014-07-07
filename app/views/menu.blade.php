@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Menu</title>
+	</head>
+	<body>
+		<h1>Menu</h1>
+	</body>
+</html>

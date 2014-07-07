@@ -18,10 +18,10 @@
 	            <a href="#" id="menu-icon"></a>
 	            <ul>
 	                <li><a href="#" class="current">Home</a></li>
-	                <li><a href="#">Events</a></li>
-	                <li><a href="#">Menu</a></li>
-	                <li><a href="#">About</a></li>
-	                <li><a href="#">Contact</a></li>
+	                <li><a href="http://localhost:8000/events">Events</a></li>
+	                <li><a href="http://localhost:8000/menu">Menu</a></li>
+	                <li><a href="http://localhost:8000/about">About</a></li>
+	                <li><a href="http://localhost:8000/contact">Contact</a></li>
 	            </ul>
 	        </nav>
 	    </div>

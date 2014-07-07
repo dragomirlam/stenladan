@@ -11,10 +11,45 @@
 |
 */
 
+/*
+ * Home route.
+ */
 Route::get('/', function()
 {	
 	$events = DB::table('events')->get();
 
 	//return $events;
 	return View::make('home');
+});
+
+/*
+ * Events route.
+ */
+Route::get('/events', function()
+{	
+	return View::make('events');
+});
+
+/*
+ * Menu route.
+ */
+Route::get('/menu', function()
+{	
+	return View::make('menu');
+});
+
+/*
+ * About route.
+ */
+Route::get('/about', function()
+{	
+	return View::make('about');
+});
+
+/*
+ * Contact route.
+ */
+Route::get('/contact', function()
+{	
+	return View::make('contact');
 });
