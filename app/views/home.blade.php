@@ -26,32 +26,37 @@
 	        </nav>
 	    </div>
 	    <div id="carousel">
-	    	<div class="gallery autoplay items-3">
+	    	<div class="gallery autoplay items-4">
 				<div id="item-1" class="control-operator"></div>
 				<div id="item-2" class="control-operator"></div>
 				<div id="item-3" class="control-operator"></div>
+				<div id="item-4" class="control-operator"></div>
 
 				<figure class="item">
-				  {{ HTML::image('images/stenladan.jpg', 'alt-text') }}
+				  {{ HTML::image('images/sten_afternoon2.jpg', 'alt-text') }}
 				</figure>
 
 				<figure class="item">
-				  <h1>Item 2</h1>
+				  {{ HTML::image('images/buffet.jpg', 'alt-text') }}
 				</figure>
 
 				<figure class="item">
-				  <h1>Item 3</h1>
+				  {{ HTML::image('images/drinks.jpg', 'alt-text') }}
+				</figure>
+
+				<figure class="item">
+				  {{ HTML::image('images/party.jpg', 'alt-text') }}
 				</figure>
 
 				<div class="controls">
 				  <a href="#item-1" class="control-button">•</a>
 				  <a href="#item-2" class="control-button">•</a>
 				  <a href="#item-3" class="control-button">•</a>
+				  <a href="#item-4" class="control-button">•</a>
 				</div>
 			</div>
 		</div>
     	<div id="top">
-    		{{ HTML::image('images/party.jpg', 'alt-text') }}
     	</div>
 		<div id="footer">
 		</div>
