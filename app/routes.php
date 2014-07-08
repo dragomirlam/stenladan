@@ -22,34 +22,34 @@ Route::get('/', function()
 	return View::make('home');
 });
 
-// /*
-//  * Events route.
-//  */
-// Route::get('/events', function()
-// {	
-// 	return View::make('events');
-// });
+/*
+ * Events route.
+ */
+Route::get('/events', function()
+{	
+	return View::make('events');
+});
 
-// /*
-//  * Menu route.
-//  */
-// Route::get('/menu', function()
-// {	
-// 	return View::make('menu');
-// });
+/*
+ * Menu route.
+ */
+Route::get('/menu', function()
+{	
+	return View::make('menu');
+});
 
+/*
+ * About route.
+ */
+Route::get('/about', function()
+{	
+	return View::make('about');
+});
 
-//  * About route.
- 
-// Route::get('/about', function()
-// {	
-// 	return View::make('about');
-// });
-
-// /*
-//  * Contact route.
-//  */
-// Route::get('/contact', function()
-// {	
-// 	return View::make('contact');
-// });
+/*
+ * Contact route.
+ */
+Route::get('/contact', function()
+{	
+	return View::make('contact');
+});
