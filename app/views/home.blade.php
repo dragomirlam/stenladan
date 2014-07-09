@@ -56,7 +56,7 @@
 				</div>
 			</div>
 		</div>
-    	<div id="top">
+    	<div id="main-container">
     	</div>
 		<div id="footer">
 		</div>

@@ -5,7 +5,7 @@
 		{{ HTML::style('css/style.css'); }}
 	</head>
 	<body>
-		<div id="header">
+		<header>
 			<a href="#" id="logo">{{ HTML::image('images/logo.png', 'alt-text') }}</a>
 	        <nav>
 	            <a href="#" id="menu-icon"></a>
@@ -17,8 +17,8 @@
 	                <li><a href="http://localhost:8000/contact">Contact</a></li>
 	            </ul>
 	        </nav>
-	    </div>
-	    <div id="top">
+	    </header>
+	    <div id="main-container">
 	    	<h1>Menu</h1>
     	</div>
 		<div id="footer">

@@ -3,9 +3,13 @@
 	<head>
 		<title>Contact</title>
 		{{ HTML::style('css/style.css'); }}
+
+		<!-- Google maps -->
+		{{ HTML::script('https://maps.googleapis.com/maps/api/js?v=3.exp'); }}
+		{{ HTML::script('javascript/google_maps.js'); }}		
 	</head>
 	<body>
-		<div id="header">
+		<header>
 			<a href="#" id="logo">{{ HTML::image('images/logo.png', 'alt-text') }}</a>
 	        <nav>
 	            <a href="#" id="menu-icon"></a>
@@ -13,13 +17,14 @@
 	                <li><a href="http://localhost:8000/">Home</a></li>
 	                <li><a href="http://localhost:8000/events">Events</a></li>
 	                <li><a href="http://localhost:8000/menu">Menu</a></li>
-	                <li><a href="http://localhost:8000/about">About</a></li>
-	                <li><a href="#" class="current">Contact</a></li>
+	                <li><a href="#" class="current">About</a></li>
+	                <li><a href="http://localhost:8000/contact">Contact</a></li>
 	            </ul>
 	        </nav>
-	    </div>
-	    <div id="top">
-	    	<h1>Contact</h1>
+	    </header>
+	    <div id="map-canvas">
+    	</div>
+    	<div id="main-container">
     	</div>
 		<div id="footer">
 		</div>
