@@ -12,7 +12,7 @@
 		{{ HTML::script('responsiveslides.min.js') }} -->
 	</head>
 	<body>
-		<div id="header">
+		<header>
 			<a href="#" id="logo">{{ HTML::image('images/logo.png', 'alt-text') }}</a>
 	        <nav>
 	            <a href="#" id="menu-icon"></a>
@@ -24,7 +24,7 @@
 	                <li><a href="http://localhost:8000/contact">Contact</a></li>
 	            </ul>
 	        </nav>
-	    </div>
+	    </header>
 	    <div id="carousel">
 	    	<div class="gallery autoplay items-4">
 				<div id="item-1" class="control-operator"></div>
