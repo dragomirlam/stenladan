@@ -12,16 +12,6 @@ html, body {
     padding: 0px;
 }
 
-a {
-    color: #4C9CF1;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    color: #444;
-}
-
 header {
     background: black;
     width: 100%;
@@ -46,8 +36,24 @@ header {
 }
 
 nav {
+    margin-right: 20px;
     float: right;
-    padding: 20px;    
+    text-align: center;
+    /*padding: 20px;*/
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: large;
+}
+
+nav a:hover {
+    background: rgba(242, 242, 242, 0.7);
+    color: black;
+    /*color: #444;*/
 }
 
 #carousel {
@@ -84,13 +90,15 @@ ul {
 }
 
 li {
+    color: #FFFFFF;
     display: inline-block;
     float: left;
     padding: 10px;
+    font-size: large;
 }
 
 .current {
-    color: #2262AD;
+    color: #FFFFFF;
 }
 
 section {
