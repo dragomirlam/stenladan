@@ -4,12 +4,14 @@
 		<meta charset="UTF-8">
 		<title>STENladan</title>
 		{{ HTML::style('css/style.css'); }}
+
+		<!-- Facebook JS-SDK -->
+		{{ HTML::script('javascript/facebook-jssdk.js'); }}
 		
+		<!-- Carousel Gallery-CSS -->
 		{{ HTML::style('css/gallery-css/dist/gallery.theme.css'); }}
 		{{ HTML::style('css/gallery-css/dist/gallery.prefixed.css'); }}
 		{{ HTML::style('css/gallery-css/vendor/normalize.css'); }}
-		<!-- {{ HTML::script('http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js') }}
-		{{ HTML::script('responsiveslides.min.js') }} -->
 	</head>
 	<body>
 		<header>
@@ -62,8 +64,14 @@
 		</div>
     	<div id="main-container">
     	</div>
+		<div id="social-networks-container">
+    		<div id="facebook-plugin" class="fb-like-box" data-href="https://www.facebook.com/pages/STENladan/132228016823173" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false">
+    		</div>
+    	</div>
 		<div id="footer">
-			© Copyright 2014 by STENladan. All Rights Reserved.
+			<div>
+				© Copyright 2014 by <b>STENladan</b>. All Rights Reserved.
+			</div>
 		</div>
 	</body>
 </html>

@@ -4,6 +4,9 @@
 		<title>Contact</title>
 		{{ HTML::style('css/style.css'); }}
 
+		<!-- Facebook JS-SDK -->
+		{{ HTML::script('javascript/facebook-jssdk.js'); }}
+
 		<!-- Google maps -->
 		{{ HTML::script('https://maps.googleapis.com/maps/api/js?v=3.exp'); }}
 		{{ HTML::script('javascript/google_maps.js'); }}		
@@ -30,7 +33,14 @@
     	</div>
     	<div id="main-container">
     	</div>
+		<div id="social-networks-container">
+    		<div id="facebook-plugin" class="fb-like-box" data-href="https://www.facebook.com/pages/STENladan/132228016823173" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false">
+    		</div>
+    	</div>
 		<div id="footer">
+			<div>
+				© Copyright 2014 by <b>STENladan</b>. All Rights Reserved.
+			</div>
 		</div>
 	</body>
 </html>
