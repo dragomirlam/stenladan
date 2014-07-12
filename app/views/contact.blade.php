@@ -34,7 +34,15 @@
     	<div id="main-container">
     	</div>
 		<div id="social-networks-container">
+			<div>
+				{{ HTML::image('images/facebook-logo.png') }}
+			</div>
     		<div id="facebook-plugin" class="fb-like-box" data-href="https://www.facebook.com/pages/STENladan/132228016823173" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false">
+    		</div>
+    		<div>
+    			<a href="https://foursquare.com/v/stenladan/4dcbad0fe4cde609a39d549c">
+    				{{ HTML::image('images/foursquare-logo.png') }}
+    			</a>
     		</div>
     	</div>
 		<div id="footer">
