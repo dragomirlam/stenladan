@@ -63,6 +63,7 @@
     	<div id="main-container">
     	</div>
 		<div id="footer">
+			© Copyright 2014 by STENladan. All Rights Reserved.
 		</div>
 	</body>
 </html>
